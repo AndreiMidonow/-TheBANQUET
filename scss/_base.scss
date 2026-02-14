@@ -1,0 +1,40 @@
+/*BASE*/
+
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:regular,700');
+@import url('https://fonts.googleapis.com/css?family=Poltawski+Nowy:regular,700');
+
+:root{
+  --font-main: "Montserrat", sans-serif;
+  --font-second: "Playfair Display", serif;
+  --font-number: "Poltawski Nowy", sans-serif; 
+
+  --text: #fff;
+}
+
+button, label, a{ 
+  cursor: pointer;  
+   
+}
+button:hover, label:hover, a:hover{
+    filter:brightness(70%);   
+}  
+
+body{
+  color:var(--text); 
+  font-family: var(--font-main); 
+}
+ 
+header{
+    background-image:url('./../image/photo/back.webp');        
+    aspect-ratio: 1920/1280;     
+    background-size: cover; 
+     
+}
+.container{  
+    max-width: 91vw; 
+    margin: auto;
+} 
+
