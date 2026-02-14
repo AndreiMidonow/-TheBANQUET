@@ -1,0 +1,74 @@
+/*promo*/ 
+.promo__background-image {
+  background: rgba(250, 255, 190, 0.56);
+  height: 10.97vw;
+  border: 1px solid #000;
+  border-top: 0;
+  margin-bottom: 6.6vw; 
+}
+ 
+.promo__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+} 
+
+#logo {
+  width: 15.5vw;
+  height: 10.76vw; 
+  padding-left: 1.2vw;  
+}
+
+.promo__logo {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-second);
+}
+
+.promo__logo-text {
+  font-size: 1.25vw;
+  width: 19vw; 
+
+  position: relative;
+  bottom: 0.22vw; 
+  right: 0.26vw;
+}
+
+#promo__icon {
+  width: 2.9vw;
+  height: 2.9vw;
+  position: relative;
+  bottom: 0.5vw; 
+  right: 0.3vw;
+}
+
+.promo__phone {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-number);
+  width: 20.88vw;  
+}
+ 
+.promo__phone-number {
+  font-size: 1.86vw;
+
+  padding: 0 0 1.3vw 0; 
+  position: relative;
+  left: 0.6vw;
+}
+
+.promo__address {
+  display: flex;
+  align-items: center; 
+  font-family: var(--font-second);
+}
+
+.promo__address-text {
+    font-size: 1.24vw;
+    width: 21.01vw;
+    position: relative;
+    top: 0.3vw;
+    left: 0.3vw; 
+}  
+ 

@@ -1,0 +1,172 @@
+.container-main{
+    padding-left: 5.15vw;
+    // height: 47.4vw; не тянется 
+    margin: 0;  
+}
+.main__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;      
+}
+.main__title {
+    font-family: var(--font-second);
+    width: 57vw;
+    font-weight: bold;
+    font-size: 3.71vw;    
+     
+} 
+.main__under-title {
+    font-size: 1.856vw;  
+    padding-top: 0.6vw; 
+}
+.main__price {
+    border-radius: 3.9vw;
+    width: 29.3vw;
+    height: 9.5vw;
+
+    display: flex; 
+    align-items: baseline;
+
+    background-image: url('./../image/icons/button.svg');
+    background-size: cover;
+    
+    padding: 2.1vw 0 0 3.4vw; 
+
+    position: relative;
+    bottom: 0.7vw;
+    right: 0.1vw;
+    
+}
+.button-text { 
+    font-weight: bold;
+    font-family: var(--font-second);  
+    font-size: 2.48vw;
+    position: relative;
+    bottom: 0.28vw;
+    left: 0.3vw;        
+} 
+
+.main__price > b:nth-child(1){     
+    font-family: var(--font-number);    
+    font-size: 4.34vw;   
+    
+}
+.button-text > b:nth-child(1){    
+    font-size: 3.5vw; 
+}
+.text-with-icon-wrapper {
+    position: relative;
+    bottom: 1vw;
+    left: 2.8vw;
+    height: 14.01vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    font-size: 1.648vw;  
+}
+.wrapper {
+    display: flex;
+    align-content: baseline; 
+ }
+.main__text1 { 
+    position: relative;
+    top: 0.4vw; 
+    left: 0.4vw;   
+}
+#main__image1{
+    
+    height: 2.4vw;
+    width:  2.4vw;        
+} 
+.main__text2 { 
+    position: relative;
+    top: 0.6vw;
+    left: 0.4vw;    
+}
+#main__image2{ 
+    
+    height: 2.4vw;
+    width:  2.4vw;  
+    
+}
+.main__text3 {  
+    position: relative;
+    top: 0.7vw;
+    left: 0.2vw; 
+}
+#main__image3{  
+    
+    height: 2.4vw;
+    width:  2.4vw;  
+ 
+}
+.main__text4 { 
+    position: relative;
+    top: 0.8vw;  
+    left: 0.4vw;   
+}    
+#main__image4{ 
+    
+    height: 2.18vw;
+    width: 2.18vw;         
+}
+span{
+    font-family: var(--font-number); 
+}
+.main__price2{  
+    display: contents; 
+    color: var(--text); 
+    font-family: var(--font-second);
+    font-weight: bold;
+    font-size: 1.35vw;
+
+}   
+.main__price2-back{ 
+    width: 29.3vw;
+    height: 6.1vw;
+    position: relative;
+    bottom: 1vw;
+    right: 0.16vw;
+
+    background-image: url('./../image/icons/button2.svg'); 
+    background-size: cover;  
+
+    display: flex;
+}
+.main__price2-text{
+    position: absolute;
+    left: 4vw;
+    top: 2.6vw;
+}
+.main__menu-button{
+  background-color: unset;
+  color: var(--text); 
+  border: 0.4vw solid rgba(218, 216, 126, 0.78);
+  border-radius: 76px;
+  width: 24.5vw;
+  height: 4.47vw;
+  font-size: 1.35vw;
+  font-weight: 700;
+  font-family: var(--font-second);
+
+  position: relative;
+  top: 0.6vw;
+  left: 1.16vw;
+     
+   display: flex;
+   justify-content: center;
+ }
+
+.menu-button-text { 
+    position: relative;
+    top: 0.6vw;  
+ }
+.menu-button-image{ 
+    height: 3.6vw;
+    width: 2.4vw;
+    position: relative;  
+    right: 0.2vw;
+    bottom: 0.2vw;  
+} 
+   
